@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/loan-application.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.repayment-tracking]
+path = 'contracts/repayment-tracking.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
